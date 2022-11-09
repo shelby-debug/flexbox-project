@@ -1,6 +1,7 @@
 .body-container {
     display: flex;
     flex-direction: column;
+    margin: -8px;
 }
 
 .logo {
@@ -14,4 +15,19 @@ header {
     color: white;
     display: flex;
     justify-content: space-between;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+
+.right-header {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
 }
