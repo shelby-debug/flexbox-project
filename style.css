@@ -1,0 +1,17 @@
+.body-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    max-height: 100px;
+    transform: rotate(90deg);
+    margin-left: 35px;
+}
+
+header {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
