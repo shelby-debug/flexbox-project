@@ -1,7 +1,14 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
 .body-container {
     display: flex;
     flex-direction: column;
-    margin: -8px;
+    height: 100vh;
+    padding: 0;
 }
 
 .logo {
@@ -30,4 +37,23 @@ ul {
     justify-content: center;
     align-items: center;
     
+}
+
+.introduction {
+    background-color: #1f2937;
+    color: white; 
+    display: flex;
+}
+
+.left-introduction {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-introduction {
+    display: flex;
+}
+
+.intro-img {
+    width: 400px;
 }
