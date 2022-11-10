@@ -61,6 +61,10 @@ h1 {
     width: 400px;
 }
 
+.plant {
+    width: 150px;
+}
+
 footer {
     background-color: #1f2937;
     color: white;
