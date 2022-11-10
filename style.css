@@ -12,14 +12,14 @@ body {
 .logo {
     max-height: 100px;
     transform: rotate(90deg);
-    margin-left: 35px;
+    margin-right: 265px;
 }
 
 header {
     background-color: #1f2937;
     color: #f9faf8;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 ul {
@@ -29,10 +29,10 @@ ul {
 }
 
 .right-header {
+    margin-left: 85px;
     display: flex;
     flex-direction: row;
     gap: 10px;
-    justify-content: center;
     align-items: center;
     
 }
@@ -40,7 +40,10 @@ ul {
 .introduction {
     background-color: #1f2937;
     color: #f9faf8; 
+    padding: 50px 100px;
     display: flex;
+    justify-content: space-around;
+    gap: 75px;
 }
 
 .left-introduction {
@@ -51,6 +54,17 @@ ul {
 h1 {
     font-size: 48px;
     font-weight: 800;
+    margin-bottom: 0;
+}
+
+a {
+    color: white;
+    background-color: #3882f6;
+    text-decoration: none;
+    width: 100px;
+    padding: 7px;
+    border-radius: 7px;
+    text-align: center;
 }
 
 .right-introduction {
