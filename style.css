@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background-color: #1f2937;
+    background-color: #001e00;
     color: #f9faf8;
     display: flex;
     justify-content: space-around;
@@ -29,7 +29,7 @@ ul {
 }
 
 .right-header {
-    margin-left: 85px;
+    margin-left: 265px;
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -38,7 +38,7 @@ ul {
 }
 
 .introduction {
-    background-color: #1f2937;
+    background-color: #001e00;
     color: #f9faf8; 
     padding: 50px 100px;
     display: flex;
@@ -59,7 +59,7 @@ h1 {
 
 a {
     color: white;
-    background-color: #3882f6;
+    background-color: #3a4c40;
     text-decoration: none;
     width: 100px;
     padding: 7px;
@@ -73,10 +73,11 @@ a {
 
 .intro-img {
     width: 400px;
+    border: solid #3a4c40;
 }
 
 .products {
-    color: #1f2937;
+    color: #001e000;
     display: flex;
     flex-direction: column;
 }
@@ -110,11 +111,12 @@ a {
     width: 150px;
     height: 150px;
     border-radius: 25px;
-    border: solid #1f2937;
+    border: solid #001e00;
 }
 
 .quote {
-    background-color: #e5e7eb;
+    background-color: #83998f;
+    color: #001e00;
     padding: 50px;
     display: flex;
     flex-direction: column;
@@ -136,8 +138,32 @@ a {
     padding-top: 0;
 }
 
+.newsletter {
+    background-color: #3a4c40;
+    padding: 50px;
+    margin: 75px 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.newsletter-sign {
+    border: solid white;
+    border-width: 2px;
+    padding: 5px 30px;
+}
+
+.right-newsletter {
+    color: white;
+}
+
+h3 {
+    margin: 0px;
+}
+
 footer {
-    background-color: #1f2937;
+    background-color: #001e00;
     color: white;
     padding: 20px;
     display: flex;
